@@ -22,7 +22,7 @@ Furthermore we implemented a way to administrate different executions with the r
 
 ### Client
 
-For the client as web application we used the React libary. React offers a simple way to change the behaviour of the graphical user interface based on different states. Additionally it is effortless to proxy request to different servers, since the React frontend communicates with a Node.js backend. This eliminates the danger of CORS-requests.
+For the client as web application we used the React library. React offers a simple way to change the behaviour of the graphical user interface based on different states. Additionally it is effortless to proxy request to different servers, since the React frontend communicates with a Node.js backend. This eliminates the danger of CORS-requests.
 
 ### Server
 
@@ -31,4 +31,4 @@ Another feature of the server is to store the different filter scripts in the `d
 
 ### MeshLab
 
-The concrete MeshLab backend is based on the usage of the libary PyMeshLab. As the name suggests, it is a Python libary. Therefor the service is written in Python. To be able to access the functionality the libary Flask was used to build a simplified REST-API. This REST-API does also not completely fulfill the REST standard.
+The concrete MeshLab backend is based on the usage of the library PyMeshLab. As the name suggests, it is a Python library. Therefore the service is written in Python. To be able to access the functionality the library Flask was used to build a simplified REST-API. This REST-API does also not completely fulfill the REST standard.
