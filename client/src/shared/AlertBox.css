@@ -1,0 +1,30 @@
+.alertBox {
+    background-color: #ffe6ec;
+    color: #a63856;
+    border: 1px solid #a63856;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 40%
+}
+
+@keyframes messageBoxFadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes messageBoxFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0
+    }
+}

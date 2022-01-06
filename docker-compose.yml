@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  meshlab:
+    build: meshlab
+    tty: true
+    networks:
+      - app
+  server:
+    build: server
+    networks:
+      - app
+  client:
+    build: client
+    networks:
+      - app
+    ports:
+      - 3000:3000
+networks:
+  app:
